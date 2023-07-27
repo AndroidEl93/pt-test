@@ -1,0 +1,44 @@
+:root {
+	/*figma colors*/
+	--color-accent-gradient: linear-gradient(180deg, #d2333e 0%, #f54b55 100%);
+	--color-accent: #d4343f;
+	--color-form-text: #979797;
+	--color-bonus-shadow: rgba(0, 0, 0, 0.2);
+	--color-bonus-background: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Onen Sans', 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.App {
+	width: 375px;
+	margin: auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 32px 3px 20px 5px;
+}
+
+.bonus_wrap {
+	position: relative;
+	margin: 0 20px -49px 20px;
+}
+
+.rectangle {
+	background: var(--color-accent-gradient);
+	width: 100%;
+	height: 148px;
+}
